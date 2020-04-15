@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    title: `Gatsby Research`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@gatsbyjs`,
   },
@@ -10,7 +10,8 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-plugin-offline`,
     `gatsby-transformer-remark`,
-    `gatsby-plugin-styled-components`,
+	`gatsby-plugin-styled-components`,
+	`gatsby-plugin-netlify`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
